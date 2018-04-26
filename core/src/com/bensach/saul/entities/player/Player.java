@@ -1,4 +1,4 @@
-package com.bensach.saul.game.player;
+package com.bensach.saul.entities.player;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;

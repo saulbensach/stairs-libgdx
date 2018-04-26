@@ -1,4 +1,4 @@
-package com.bensach.saul.game.stairs;
+package com.bensach.saul.entities.stairs;
 
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.World;
@@ -22,7 +22,7 @@ public class StairsManager {
 
     public void clean(World world){
         for (Stair stair : stairs){
-            world.destroyBody(stair.body);
+            world.destroyBody(stair.getBody());
         }
         stairs.clear();
     }
